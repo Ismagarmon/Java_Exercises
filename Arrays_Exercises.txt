@@ -1,0 +1,12 @@
+1 - Calcular la media de una serie de números que se leen por teclado. El programa leerá 10 números enteros y los guardará en un array.
+A continuación calcula y muestra por separado la media de los valores positivos y la media de los valores negativos.
+
+Lee 10 num por teclado guardados en un array y calcular y mostrar la media de los números en los que estés en posiciones pares del array, 
+consideraremos la primer posición del array como par.
+
+Leer por teclado la nota de los alumnos de una clase y calcular la media del grupo. También mostrará los alumnos con nota superior a la media.
+El número de alumnos se lee por teclado. Utilizaremos un array de double, que contendrá la nota de los alumnos. El tamaño del array será el número de 
+alumnos de la clase, por tanto, se pedirá el número de alumnos y luego se creará el array. Se realiza 3 recorridos sobre el array, el primero para asignar
+a cada elemento las notas introducidas por teclado, el segundo para sumarlas y calcular la media, y el tercero para mostrar alumnos con notas superiores a la media.
+
+Programa que cree un array de 20 elementos, llamado "Pares" y guarde los 20 primeros números pares. Mostrar por pantalla el array ordenado.
