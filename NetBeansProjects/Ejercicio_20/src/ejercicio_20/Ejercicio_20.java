@@ -13,21 +13,19 @@ public class Ejercicio_20 {
         Scanner leer = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#.00");
         String nombre;
-        String alumno;
-        System.out.println("Introduce el nombre del alumno: ");
-        nombre = leer.nextLine();
-        /*do{
-            System.out.println("Introduce el nombre del alumno: ");
+        float p_practica, p_problemas, p_teorica;
+        double resultado;
+        do{
+            System.out.println("Introduce el nombre del alumno/a: ");
             nombre = leer.nextLine();
-            float p_practica, p_problemas, p_teorica;
-            double resultado;
             System.out.println("Introduce las notas de las diferentes partes: ");
             System.out.println("1 - Parte Practica: ");
-            p_practica = leer.nextInt();
+            p_practica = leer.nextFloat();
             System.out.println("1 - Parte Problemas: ");
-            p_problemas = leer.nextInt();
+            p_problemas = leer.nextFloat();
             System.out.println("1 - Parte Teorica: ");
-            p_teorica = leer.nextInt();
+            p_teorica = leer.nextFloat();
+            leer.nextLine();
             
             resultado = (p_practica*0.1) + (p_problemas*0.5) + (p_teorica*0.4);
             if (resultado > 10){
@@ -36,8 +34,8 @@ public class Ejercicio_20 {
             else {
                 System.out.println("Esta es la nota de "+nombre+": "+df.format(resultado));
             }
-        } while (nombre != "");*/
-        while (nombre != ""){
+        } while (!nombre.isEmpty());
+        /*while (nombre != ""){
             System.out.println("Introduce el nombre del alumno: ");
             nombre = leer.nextLine();
             float p_practica, p_problemas, p_teorica;
@@ -59,5 +57,6 @@ public class Ejercicio_20 {
             }
             nombre = "a";
         }
+        */
     }
 }

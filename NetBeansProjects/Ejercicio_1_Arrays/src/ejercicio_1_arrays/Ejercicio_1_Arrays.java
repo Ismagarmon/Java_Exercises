@@ -35,5 +35,4 @@ public class Ejercicio_1_Arrays {
             System.out.print(a[j]+" ");
         }
     }
-    
 }
