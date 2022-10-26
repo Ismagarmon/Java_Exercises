@@ -1,4 +1,3 @@
-
 package ejercicio_1_arrays;
 import java.text.DecimalFormat;
 import java.util.Scanner;
