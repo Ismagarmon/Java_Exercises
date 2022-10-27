@@ -22,8 +22,6 @@ public class Ejercicio_3_Array {
             nota = leer.nextFloat();
             notas[i] = nota;
             suma += nota;
-            
-            System.out.println(suma);
         }
 
         
