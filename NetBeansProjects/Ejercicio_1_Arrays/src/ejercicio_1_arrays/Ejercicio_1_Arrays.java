@@ -1,12 +1,8 @@
-
 package ejercicio_1_arrays;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Ejercicio_1_Arrays {
-
-
-
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("#.00");
@@ -35,5 +31,4 @@ public class Ejercicio_1_Arrays {
             System.out.print(a[j]+" ");
         }
     }
-    
 }
