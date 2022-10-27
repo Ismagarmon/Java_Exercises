@@ -19,5 +19,4 @@ public class Ejercicio_4_Array {
             System.out.print(Pares[j]+" ");
         }
     }
-    
 }
