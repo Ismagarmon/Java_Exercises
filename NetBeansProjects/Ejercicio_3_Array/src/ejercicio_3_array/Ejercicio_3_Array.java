@@ -1,11 +1,12 @@
 
 package ejercicio_3_array;
+import java.io.*;
 import java.util.Scanner;
 //import java.text.DecimalFormat;
 
 public class Ejercicio_3_Array {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         Scanner leer = new Scanner(System.in);
         //DecimalFormat df = new DecimalFormat("#.00");
         int n_alumnos;
